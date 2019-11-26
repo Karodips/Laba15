@@ -13,9 +13,9 @@ int main() {
 	}
 	for (i = 0; i < n; i++) cout << arr[i] << " ";
 	cout << endl;
-	min = arr[1];
+	min = arr[0];
 	minnum = 0;
-	max = arr[1];
+	max = arr[0];
 	maxnum = 0;
 	for (i = 1; i < n; i++) {
 		if (max < arr[i]) { 
